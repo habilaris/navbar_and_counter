@@ -1,0 +1,50 @@
+.counter_cont {
+  border: 1px solid hsla(0, 0%, 50%, 0.4);
+  padding: 35px 28px;
+  width: 450px;
+  border-radius: 50px;
+  corner-shape: squircle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num {
+  font-size: 8rem;
+  text-align: center;
+  margin-top: -23px;
+  font-weight: 600;
+}
+
+.btn_cont {
+  border: 2px solid;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.btns {
+  margin: 5px;
+  padding: 10px 25px;
+  background-color: crimson;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  /* corner-shape: squircle; */
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: hsl(348, 82%, 49%);
+    letter-spacing: 2px;
+  }
+}
+
+.counter_cont2 {
+  height: 300px;
+  width: 300px;
+  background: red;
+  cursor: pointer;
+  position: relative;
+  z-index: 9999;
+}

@@ -1,0 +1,64 @@
+:root {
+  --nav-width: 720px;
+  --nav-height: 50px;
+  --nav-border-radius: 55px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid; */
+  background: #232323;
+  box-shadow: inset -2px -2px 6px rgba(148, 148, 148, 0.26);
+  width: calc(var(--nav-width) - 30px);
+  height: calc(var(--nav-height) - 12px);
+  border-radius: var(--nav-border-radius);
+  corner-shape: squircle;
+  /* gap: 4px; */
+}
+
+.NavLink {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  border: 1px solid rgba(107, 107, 107, 0.425);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  right: 50%;
+  transform: translate(50%);
+  width: var(--nav-width);
+  height: var(--nav-height);
+  border-radius: var(--nav-border-radius);
+  corner-shape: squircle;
+  background-color: rgb(20, 20, 20);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.415);
+}
+
+li {
+  /* border: 2px solid; */
+  padding: 5px;
+  width: 160px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(25, 25, 25, 0.207);
+    box-shadow: inset -1px -2px 6px rgba(190, 190, 190, 0.312);
+    font-size: 15px;
+  }
+}
+
+.active {
+  background: rgba(25, 25, 25, 0.207);
+  box-shadow: inset -1px -2px 6px rgba(190, 190, 190, 0.312);
+  font-size: 15px;
+  border-radius: 10px;
+}
