@@ -1,4 +1,4 @@
-import Counter from "./components/useState_Counter";
+import Counter from "./components/Counter";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import MouseHoverCounter from "./components/MouseHoverCounter";
