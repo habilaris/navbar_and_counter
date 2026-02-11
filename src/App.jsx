@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import MouseHoverCounter from "./components/MouseHoverCounter";
 import ErrorPage from "./pages/404";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Footer from "./components/Footer";
 
